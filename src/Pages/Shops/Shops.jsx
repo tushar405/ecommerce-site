@@ -3,7 +3,7 @@ import { category } from '../../Category';
 import Products from '../../Components/Products/Products';
 import { FaShopify } from "react-icons/fa";
 import "./Shops.css"
-import { dummydata } from '../../dummydata';
+import { dummydata } from '../../Dummydata';
 
 const Shops = () => {
     

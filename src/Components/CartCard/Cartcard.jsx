@@ -2,7 +2,7 @@ import React from 'react'
 import { MdDelete } from "react-icons/md";
 import "./Cartcard.css"
 import { useDispatch } from 'react-redux';
-import { removeItem } from "../../redux/cartslice";
+import { removeItem } from "../../Redux/Cartslice";
 
 
 const Cartcard = ({image,name,price,id}) => {
