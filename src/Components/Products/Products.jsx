@@ -2,7 +2,7 @@ import React from 'react'
 import image1 from "../../assets/image1.jpg"
 import "./Products.css"
 import { useDispatch } from 'react-redux'
-import {addItem} from "../../redux/Cartslice"
+import {addItem} from "../../Redux/cartslice"
 const Products = ({name,image,price,id}) => {
   let dispatch = useDispatch()
   return (
