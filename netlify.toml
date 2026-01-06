@@ -1,4 +1,4 @@
 [build]
   publish = "dist"
   command = "npm run build"
-  node_version = "18"
+  node_version = "24"
