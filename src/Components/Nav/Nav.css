@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+width:100%;
+height:150px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.514);
+}
+
+
+
+.top-nav {
+    background-color: rgb(22, 25, 28);
+    width:100%;
+    height: 75%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 40px;
+ 
+}
+
+.bottom-nav {
+    width:100%;
+    height:25%;
+    background-color: rgb(36, 42, 46);
+   
+}
+
+.top-nav .logo {
+color:white;
+font-size: 30px;
+gap:10px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+
+.top-nav a {
+    text-decoration: none;
+}
+
+.top-nav .search-box {
+    flex:1;
+   max-width: 500px; 
+    min-width: 150px; 
+    height:60%;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.top-nav .search-box input {
+    flex:1;
+    width:60%;
+    height:100%;
+     padding:10px 20px; 
+       border: none; 
+     outline: none; 
+     font-size: 18px;
+}
+
+.top-nav .search-box button {
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px; 
+   border: none; 
+    outline: none;  
+    font-size: 30px;
+    background-color: white;
+    cursor:pointer;
+}
+
+.cart-box {
+    position: relative;
+}
+
+.cart-box svg{
+    width:33px;
+    height:30px;
+    color:white;
+
+}
+
+.cart-box span {
+    color:white;
+    position: absolute;
+    top: -10px;
+    right:1px;
+
+}
+
+.bottom-nav {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+
+}
+
+.new {
+color:white;
+font-size: 20px;
+text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .top-nav .search-box {
+        display: none;
+      
+    }
+      .bottom-nav {
+   
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+    
+  
+}
+
