@@ -3,7 +3,7 @@ import bg from '../../assets/bg0.gif'
 import './Home.css'
 import { category } from '../../Category'
 import Products from '../../Components/Products/Products'
-import { dummydata } from '../../Dummydata'
+import { dummydata } from '../../Dummydata.js'
 
 const Home = () => {
   const [cate, setcate] = useState(dummydata);
